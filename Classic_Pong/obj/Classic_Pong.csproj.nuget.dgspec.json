@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Game-Classic-Pong\\Classic_Pong\\Classic_Pong\\Classic_Pong.csproj": {}
+    "C:\\Users\\DevTran\\Game-Classic-Pong-Group-17\\Classic_Pong\\Classic_Pong.csproj": {}
   },
   "projects": {
-    "D:\\Game-Classic-Pong\\Classic_Pong\\Classic_Pong\\Classic_Pong.csproj": {
+    "C:\\Users\\DevTran\\Game-Classic-Pong-Group-17\\Classic_Pong\\Classic_Pong.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Game-Classic-Pong\\Classic_Pong\\Classic_Pong\\Classic_Pong.csproj",
+        "projectUniqueName": "C:\\Users\\DevTran\\Game-Classic-Pong-Group-17\\Classic_Pong\\Classic_Pong.csproj",
         "projectName": "Classic_Pong",
-        "projectPath": "D:\\Game-Classic-Pong\\Classic_Pong\\Classic_Pong\\Classic_Pong.csproj",
+        "projectPath": "C:\\Users\\DevTran\\Game-Classic-Pong-Group-17\\Classic_Pong\\Classic_Pong.csproj",
         "packagesPath": "C:\\Users\\DevTran\\.nuget\\packages\\",
-        "outputPath": "D:\\Game-Classic-Pong\\Classic_Pong\\Classic_Pong\\obj\\",
+        "outputPath": "C:\\Users\\DevTran\\Game-Classic-Pong-Group-17\\Classic_Pong\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\VS22\\Visual Studio 22\\Shared\\NuGetPackages"
