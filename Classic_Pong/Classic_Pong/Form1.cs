@@ -18,6 +18,10 @@
         public Form1()
         {
             InitializeComponent();
+            this.SetStyle(ControlStyles.OptimizedDoubleBuffer |
+                 ControlStyles.AllPaintingInWmPaint |
+                 ControlStyles.UserPaint, true);
+            this.UpdateStyles();
         }
 
         private void Form1_Load(object sender, EventArgs e)

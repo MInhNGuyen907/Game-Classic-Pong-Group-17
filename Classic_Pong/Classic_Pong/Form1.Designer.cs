@@ -42,10 +42,9 @@
             // player1
             // 
             player1.Image = Properties.Resources.player;
-            player1.Location = new Point(31, 116);
-            player1.Margin = new Padding(3, 2, 3, 2);
+            player1.Location = new Point(35, 155);
             player1.Name = "player1";
-            player1.Size = new Size(26, 90);
+            player1.Size = new Size(30, 120);
             player1.SizeMode = PictureBoxSizeMode.StretchImage;
             player1.TabIndex = 0;
             player1.TabStop = false;
@@ -53,10 +52,9 @@
             // player2
             // 
             player2.Image = (Image)resources.GetObject("player2.Image");
-            player2.Location = new Point(632, 116);
-            player2.Margin = new Padding(3, 2, 3, 2);
+            player2.Location = new Point(722, 155);
             player2.Name = "player2";
-            player2.Size = new Size(26, 90);
+            player2.Size = new Size(30, 120);
             player2.SizeMode = PictureBoxSizeMode.StretchImage;
             player2.TabIndex = 1;
             player2.TabStop = false;
@@ -65,10 +63,10 @@
             // Ball
             // 
             Ball.Image = Properties.Resources.ball;
-            Ball.Location = new Point(336, 145);
-            Ball.Margin = new Padding(3, 2, 3, 2);
+            Ball.InitialImage = Properties.Resources.ball;
+            Ball.Location = new Point(381, 198);
             Ball.Name = "Ball";
-            Ball.Size = new Size(26, 22);
+            Ball.Size = new Size(40, 39);
             Ball.SizeMode = PictureBoxSizeMode.StretchImage;
             Ball.TabIndex = 2;
             Ball.TabStop = false;
@@ -81,15 +79,14 @@
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.Highlight;
-            ClientSize = new Size(700, 338);
+            ClientSize = new Size(800, 451);
             Controls.Add(Ball);
             Controls.Add(player2);
             Controls.Add(player1);
             DoubleBuffered = true;
-            Margin = new Padding(3, 2, 3, 2);
             Name = "Form1";
             Text = "Player1: 0 -- Player2: 0";
             Load += Form1_Load;
